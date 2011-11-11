@@ -1,0 +1,6 @@
+label.error {
+	background: #FF0000;
+	color: #FFF;
+	display: inline-block;
+	padding: 1px 2px;
+}
