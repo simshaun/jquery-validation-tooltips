@@ -50,6 +50,7 @@ span.code {
 	}
 	#xpandable .toggle:hover { background: #6F66FF; }
 
+#form_relative_wrap { position: relative; }
 #demo_form { margin-top: 25px; }
 
 input[type='text'],

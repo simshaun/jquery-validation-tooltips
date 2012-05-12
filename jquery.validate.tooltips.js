@@ -71,7 +71,7 @@ $.validator.prototype.reflow = function(errorList) {
 				break;
 		}
 
-		offset = $element.offset();
+		offset = $element.position();
 
 		switch (error_position) {
 			case 't':

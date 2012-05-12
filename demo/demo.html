@@ -84,153 +84,155 @@ $validator.reflow();</pre></div>
 			<a class="toggle" href="#">-</a>
 		</div>
 
-		<form id="demo_form" method="get" action="">
+		<div id="form_relative_wrap">
+			<form id="demo_form" method="get" action="">
 
-			<table>
-				<tr>
-					<td class="label">
-						<label for="name_f">Name:</label>
-					</td>
-					<td class="value">
-						<input type="text" name="name_f" id="name_f" class="half required" placeholder="First Name">
-						<input type="text" name="name_l" id="name_l" class="half required" placeholder="Last Name">
-					</td>
-				</tr>
+				<table>
+					<tr>
+						<td class="label">
+							<label for="name_f">Name:</label>
+						</td>
+						<td class="value">
+							<input type="text" name="name_f" id="name_f" class="half required" placeholder="First Name">
+							<input type="text" name="name_l" id="name_l" class="half required" placeholder="Last Name">
+						</td>
+					</tr>
 
-				<tr>
-					<td class="label">
-						<label for="username">Username:</label>
-					</td>
-					<td class="value">
-						<input type="text" name="username" id="username" class="required">
-					</td>
-				</tr>
+					<tr>
+						<td class="label">
+							<label for="username">Username:</label>
+						</td>
+						<td class="value">
+							<input type="text" name="username" id="username" class="required">
+						</td>
+					</tr>
 
-				<tr>
-					<td class="label">
-						<label for="password">Password:</label>
-					</td>
-					<td class="value">
-						<input type="password" name="password" id="password" class="required">
-					</td>
-				</tr>
+					<tr>
+						<td class="label">
+							<label for="password">Password:</label>
+						</td>
+						<td class="value">
+							<input type="password" name="password" id="password" class="required">
+						</td>
+					</tr>
 
-				<tr>
-					<td class="label">
-						<label for="password_confirm">Confirm Password:</label>
-					</td>
-					<td class="value">
-						<input type="password" name="password_confirm" id="password_confirm" class="required">
-					</td>
-				</tr>
-			</table>
+					<tr>
+						<td class="label">
+							<label for="password_confirm">Confirm Password:</label>
+						</td>
+						<td class="value">
+							<input type="password" name="password_confirm" id="password_confirm" class="required">
+						</td>
+					</tr>
+				</table>
 
-			<hr>
+				<hr>
 
-			<table>
-				<tr>
-					<td class="label">
-						<label>Gender:</label>
-					</td>
-					<td class="value">
-						<label>
-							<input type="radio" name="gender" id="gender_m" value="M" class="required">
-							Male</label> <br>
-						<label>
-							<input type="radio" name="gender" id="gender_f" value="F" class="required">
-							Female</label> <br>
-						<label>
-							<input type="radio" name="gender" id="gender_o" value="O" class="required">
-							Other</label>
+				<table>
+					<tr>
+						<td class="label">
+							<label>Gender:</label>
+						</td>
+						<td class="value">
+							<label>
+								<input type="radio" name="gender" id="gender_m" value="M" class="required">
+								Male</label> <br>
+							<label>
+								<input type="radio" name="gender" id="gender_f" value="F" class="required">
+								Female</label> <br>
+							<label>
+								<input type="radio" name="gender" id="gender_o" value="O" class="required">
+								Other</label>
 
-						<p class="note">These labels contain both the input and the text.</p>
-					</td>
-				</tr>
+							<p class="note">These labels contain both the input and the text.</p>
+						</td>
+					</tr>
 
-				<tr>
-					<td class="label">
-						<label>Speed:</label>
-					</td>
-					<td class="value">
-						<input type="radio" name="speed" id="speed_s" value="S" class="required">
-						<label for="speed_s">Slow</label> <br>
-						<input type="radio" name="speed" id="speed_f" value="F" class="required">
-						<label for="speed_f">Fast</label>
+					<tr>
+						<td class="label">
+							<label>Speed:</label>
+						</td>
+						<td class="value">
+							<input type="radio" name="speed" id="speed_s" value="S" class="required">
+							<label for="speed_s">Slow</label> <br>
+							<input type="radio" name="speed" id="speed_f" value="F" class="required">
+							<label for="speed_f">Fast</label>
 
-						<p class="note">These labels are linked using the `for` attribute.</p>
-					</td>
-				</tr>
+							<p class="note">These labels are linked using the `for` attribute.</p>
+						</td>
+					</tr>
 
-				<tr>
-					<td class="label">
-						<label for="favorite_color">Favorite Color:</label>
-					</td>
-					<td class="value">
-						<select name="favorite_color" id="favorite_color" class="required">
-							<option value="">- Choose One -</option>
-							<option>Red</option>
-							<option>Green</option>
-							<option>Blue</option>
-							<option>Orange</option>
-							<option>Purple</option>
-							<option>Yellow</option>
-							<option>Pink</option>
-							<option>White</option>
-						</select>
-					</td>
-				</tr>
-			</table>
+					<tr>
+						<td class="label">
+							<label for="favorite_color">Favorite Color:</label>
+						</td>
+						<td class="value">
+							<select name="favorite_color" id="favorite_color" class="required">
+								<option value="">- Choose One -</option>
+								<option>Red</option>
+								<option>Green</option>
+								<option>Blue</option>
+								<option>Orange</option>
+								<option>Purple</option>
+								<option>Yellow</option>
+								<option>Pink</option>
+								<option>White</option>
+							</select>
+						</td>
+					</tr>
+				</table>
 
-			<hr>
+				<hr>
 
-			<p class="heading">
-				Position Tests
-			</p>
+				<p class="heading">
+					Position Tests
+				</p>
 
-			<p style="margin-top: 40px">
-				<input type="text" name="position_test_t" id="position_test_t" class="required" placeholder="Top" data-errorposition="t">
-			</p>
+				<p style="margin-top: 40px">
+					<input type="text" name="position_test_t" id="position_test_t" class="required" placeholder="Top" data-errorposition="t">
+				</p>
 
-			<p style="margin-left: 205px">
-				<input type="text" name="position_test_l" id="position_test_l" class="required" placeholder="Left" data-errorposition="l">
-			</p>
+				<p style="margin-left: 205px">
+					<input type="text" name="position_test_l" id="position_test_l" class="required" placeholder="Left" data-errorposition="l">
+				</p>
 
-			<p style="margin-bottom: 40px">
-				<input type="text" name="position_test_b" id="position_test_b" class="required" placeholder="Bottom" data-errorposition="b">
-			</p>
+				<p style="margin-bottom: 40px">
+					<input type="text" name="position_test_b" id="position_test_b" class="required" placeholder="Bottom" data-errorposition="b">
+				</p>
 
-			<p>
-				<input type="text" name="position_test_r" id="position_test_r" class="required" placeholder="Right" data-errorposition="r">
-			</p>
+				<p>
+					<input type="text" name="position_test_r" id="position_test_r" class="required" placeholder="Right" data-errorposition="r">
+				</p>
 
-			<p style="margin-left: 205px; margin-top: 40px">
-				<input type="text" name="position_test_tl" id="position_test_tl" class="required" placeholder="Top-Left" data-errorposition="tl">
-			</p>
+				<p style="margin-left: 205px; margin-top: 40px">
+					<input type="text" name="position_test_tl" id="position_test_tl" class="required" placeholder="Top-Left" data-errorposition="tl">
+				</p>
 
-			<p style="margin-top: 40px">
-				<input type="text" name="position_test_tr" id="position_test_tr" class="required" placeholder="Top-Right" data-errorposition="tr">
-			</p>
+				<p style="margin-top: 40px">
+					<input type="text" name="position_test_tr" id="position_test_tr" class="required" placeholder="Top-Right" data-errorposition="tr">
+				</p>
 
-			<p style="margin-left: 205px; margin-bottom: 40px">
-				<input type="text" name="position_test_bl" id="position_test_bl" class="required" placeholder="Bottom-Left" data-errorposition="bl">
-			</p>
+				<p style="margin-left: 205px; margin-bottom: 40px">
+					<input type="text" name="position_test_bl" id="position_test_bl" class="required" placeholder="Bottom-Left" data-errorposition="bl">
+				</p>
 
-			<p style="margin-bottom: 40px">
-				<input type="text" name="position_test_br" id="position_test_br" class="required" placeholder="Bottom-Right" data-errorposition="br">
-			</p>
+				<p style="margin-bottom: 40px">
+					<input type="text" name="position_test_br" id="position_test_br" class="required" placeholder="Bottom-Right" data-errorposition="br">
+				</p>
 
-			<hr>
+				<hr>
 
-			<table>
-				<tr>
-					<td class="label">&nbsp;</td>
-					<td class="value">
-						<input type="submit" name="do_it" id="do_it" value="Test">
-					</td>
-				</tr>
-			</table>
+				<table>
+					<tr>
+						<td class="label">&nbsp;</td>
+						<td class="value">
+							<input type="submit" name="do_it" id="do_it" value="Test">
+						</td>
+					</tr>
+				</table>
 
-		</form>
+			</form>
+		</div>
 	</div>
 </div>
 
